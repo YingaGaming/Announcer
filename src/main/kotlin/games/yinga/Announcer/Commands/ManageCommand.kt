@@ -58,7 +58,7 @@ class ManageCommand(private val plugin: Main) {
 					}
 					"disable" -> {
 						announcementDocument.set("sound", false)
-						plugin.sendMessage(player, "SUCCESS_SOUND_ENABLED", name)
+						plugin.sendMessage(player, "SUCCESS_SOUND_DISABLED", name)
 					}
 					else -> {
 						plugin.sendUsageMessage(player, plugin.config.getStringList("messages.USAGE_MANAGE_SOUND"))
