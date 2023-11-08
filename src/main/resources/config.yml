@@ -16,11 +16,11 @@ messages:
   SUCCESS_ANNOUNCEMENT_ENABLED:
     - "&a&l%name% wurde erfolgreich aktiviert!"
   SUCCESS_ANNOUNCEMENT_DISABLED:
-    - "&a&l%name% wurde erfolgreich aktiviert!"
+    - "&a&l%name% wurde erfolgreich deaktiviert!"
   SUCCESS_SOUND_ENABLED:
     - "&a&lSound für %name% wurde erfolgreich aktiviert!"
   SUCCESS_SOUND_DISABLED:
-    - "&a&lSound für %name% wurde erfolgreich aktiviert!"
+    - "&a&lSound für %name% wurde erfolgreich deaktiviert!"
   SUCCESS_ANNOUNCEMENT_ADD:
     - "&a&l%name% wurde erfolgreich hinzugefügt!"
   SUCCESS_ANNOUNCEMENT_REMOVE:
