@@ -1,0 +1,81 @@
+database:
+  name: "Announcer"
+  url: "mongodb://127.0.0.1:27017"
+
+delay: 10
+
+prefix: "&d===== &b&lAnkündigung &r&d====="
+
+suffix: "&7&lEinstellungen: &r&7/announce manage %name%"
+
+messages:
+  MISSING_PERMISSION: 
+    - "&c&lDazu bist du nicht berechtigt!"
+  ERROR_ANNOUNCEMENT_EXISTS:
+    - "&c&lDieses Announcement existiert bereits"
+  SUCCESS_ANNOUNCEMENT_ENABLED:
+    - "&a&l%name% wurde erfolgreich aktiviert!"
+  SUCCESS_ANNOUNCEMENT_DISABLED:
+    - "&a&l%name% wurde erfolgreich aktiviert!"
+  SUCCESS_SOUND_ENABLED:
+    - "&a&lSound für %name% wurde erfolgreich aktiviert!"
+  SUCCESS_SOUND_DISABLED:
+    - "&a&lSound für %name% wurde erfolgreich aktiviert!"
+  SUCCESS_ANNOUNCEMENT_ADD:
+    - "&a&l%name% wurde erfolgreich hinzugefügt!"
+  SUCCESS_ANNOUNCEMENT_REMOVE:
+    - "&a&l%name% wurde erfolgreich entfernt!"
+  SUCCESS_ANNOUNCEMENT_EDIT:
+    - "&a&l%name% wurde erfolgreich bearbeitet!"
+  USAGE:
+    - "&6Announcement Einstellungen:"
+    - "&d/announce &emanage"
+    - " "
+    - "&6Admin Aktionen:"
+    - "&d/announce &eadmin"
+  USAGE_PREFIX: 
+    - "&e===== Announce Hilfe ====="
+    - " "
+  USAGE_SUFFIX:
+    - " "
+    - "&e========================="
+  USAGE_MANAGE:
+    - "&6Announcement Aktivieren:"
+    - "&d/announce &emanage &b<name> &aenable"
+    - " "
+    - "&6Announcement Deaktivieren:"
+    - "&d/announce &emanage &b<name> &adisable"
+    - " "
+    - "&6Sound Aktivieren:"
+    - "&d/announce &emanage &b<name> &asound &3enable"
+    - " "
+    - "&6Sound Deaktivieren:"
+    - "&d/announce &emanage &b<name> &asound &3disable"
+    - " "
+    - "&eNotiz: &bFür globale Einstellungen, benutze \"global\" als Namen"
+  USAGE_MANAGE_SOUND: 
+    - "&6Sound Aktivieren:"
+    - "&d/announce &emanage &b<name> &asound &3enable"
+    - " "
+    - "&6Sound Deaktivieren:"
+    - "&d/announce &emanage &b<name> &asound &3disable"
+    - " "
+    - "&eNotiz: &bFür globale Einstellungen, benutze \"global\" als Namen"
+  USAGE_ADMIN: 
+    - "&6Announcement Hinzufügen:"
+    - "&d/announce &eadmin &badd &a<name> &3<content>"
+    - " "
+    - "&6Announcement Entfernen:"
+    - "&d/announce &eadmin &bremove &a<name>"
+    - " "
+    - "&6Announcement Bearbeiten:"
+    - "&d/announce &eadmin &bedit &a<name> &3<content>"
+  USAGE_ADMIN_ADD: 
+    - "&6Announcement Hinzufügen:"
+    - "&d/announce &eadmin &badd &a<name> &3<content>"
+  USAGE_ADMIN_REMOVE: 
+    - "&6Announcement Entfernen:"
+    - "&d/announce &eadmin &bremove &a<name>"
+  USAGE_ADMIN_EDIT: 
+    - "&6Announcement Bearbeiten:"
+    - "&d/announce &eadmin &bedit &a<name> &3<content>"
